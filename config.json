@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "одноклассники ",
+    "link": "сиреневое ",
+    "text": ""
+  },
+  "text": {
+    "more": "Ориентировачный граф друзей построен из 81 человека. Данные  получившихся сообществ корректны.В основном, \\ в графе получились такие сообщества, как:\nбывшие одноклассники (сиреневый цвет); люди, возростная категория которых состовляет 30+ (голубой цвет); студенты вшэ (синий цвет);\nродственники (желтый цвет); люди проживающие в соседнем с моим городе (оранжевый цвет); люди, обучающиеся в школе, которую\nзаканчивала я (зеленый цвет), недавнодабавленные в друзья (серый цвет). Таким образом, я могу сказать, что, в основном, корректны,\nоднако, где-то можно встретить неточности.\n",
+    "intro": "Ориентировочный граф моих друзей.",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "связь с другим другом ",
+    "colorLabel": "сиреневый/синий/зеленый/голубой/оранжевый/серый/желтый/розовый ",
+    "nodeLabel": "Друг"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
